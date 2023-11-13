@@ -1,0 +1,245 @@
+
+.navbar {
+    animation: fade-in 2s ease-in-out forwards; 
+    padding: 20px; 
+}
+.navbar-brand {
+    font-size: 32px; 
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animated-link {
+    position: relative;
+    display: inline-block; 
+    overflow: hidden; 
+    vertical-align: middle; 
+}
+
+.animated-link::before {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF0066;
+    transition: width 0.3s;
+}
+
+.animated-link:hover::before {
+    width: 100%;
+    transition: none; 
+}
+.navbar-toggler {
+    background-color: rgb(52, 50, 50); 
+    
+   
+}
+
+.navbar-toggler:before {
+    background-color: black; 
+}
+
+.nav-item{
+    padding-right: 20px;
+}
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF0066; 
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover::before {
+    transform: scaleX(1); 
+    transform-origin: bottom left;
+}
+.button {
+    display: inline-block;
+    background-color: #FF0066;
+    color: #fff;
+    padding: .75rem 2.5rem;
+    border-radius: .5rem;
+}
+/* Custom CSS for slide-down animations */
+.animate-slide-down {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.animate-slide-down.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+.svg-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.svg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.home__img {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.home__blob {
+    fill: #FF0066;
+}
+.home__blob-img {
+    width: 100%;
+    height: auto;
+}
+.display-3{
+    font-weight: 100;
+}
+
+
+
+
+
+
+.navbar {
+    animation: fade-in 2s ease-in-out forwards; 
+    padding: 20px; 
+}
+.navbar-brand {
+    font-size: 32px; 
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animated-link {
+    position: relative;
+    display: inline-block; 
+    overflow: hidden; 
+    vertical-align: middle; 
+}
+
+.animated-link::before {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF0066;
+    transition: width 0.3s;
+}
+
+.animated-link:hover::before {
+    width: 100%;
+    transition: none; 
+}
+.navbar-toggler {
+    background-color: rgb(52, 50, 50); 
+}
+
+.navbar-toggler:before {
+    background-color: black; 
+}
+
+.nav-item{
+    padding-right: 20px;
+}
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-item .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF0066; 
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover::before {
+    transform: scaleX(1); 
+    transform-origin: bottom left;
+}
+.button {
+    display: inline-block;
+    background-color: #FF0066;
+    color: #ffffff;
+    padding: .75rem 2.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+}
+.navbar-brand{
+    color: #FF0066;
+}
+
+/* Custom CSS for slide-down animations */
+.animate-slide-down {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.animate-slide-down.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+.svg-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.svg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.home__img {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    position: center;
+    
+}
+.home__blob {
+    fill: #FF0066;
+    
+}
+.home__blob-img {
+    width: 50%;
+    height: auto;
+    border: 3px solid rgb(240, 240, 240);
+ 
+}
+.display-3{
+    font-weight: 100;
+}
